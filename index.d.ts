@@ -20,13 +20,13 @@ export interface SizeUpdate {
 }
 
 export interface AutoHeightWebViewProps extends WebViewProps {
-  onSizeUpdated?: (size: SizeUpdate) => void;
-  files?: StylesFile[];
-  style?: StyleProp<ViewStyle>;
-  customScript?: string;
-  customStyle?: string;
-  viewportContent?: string;
-  scrollEnabledWithZoomedin?: boolean;
+  onSizeUpdated: (size: SizeUpdate) => void;
+  files: StylesFile[];
+  style: StyleProp<ViewStyle>;
+  customScript: string;
+  customStyle: string;
+  viewportContent: string;
+  scrollEnabledWithZoomedin: boolean;
 }
 
 export default class AutoHeightWebView extends Component<Partial<AutoHeightWebViewProps>> { }
