@@ -65,7 +65,7 @@ const AutoHeightWebView = React.memo(
         style={[
           styles.webView,
           {
-            width,
+            // width,
             height
           },
           style
